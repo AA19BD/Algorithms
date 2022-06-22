@@ -1,7 +1,7 @@
 class Solution:#Two Pointers Technique
     def twoSum(self, numbers: list[int], target: int)-> list[int]:#O(n)
-        left_p=0
-        right_p=len(numbers)-1
+        left_p = 0
+        right_p = len(numbers)-1
             
         while left_p<right_p:
             if (numbers[left_p]+numbers[right_p]==target):
