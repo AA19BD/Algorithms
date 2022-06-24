@@ -1,8 +1,8 @@
-def Postfix_notation(s:str) -> int:
+def Postfix_notation(s:str) -> list[int]:
 
     stack = []
     for i in s.split():
-        if i not in '+-*':
+        if i != '+' and i != '-' and i != '*' :
             stack.append(i)
         else:
             if i == '+':
@@ -18,8 +18,7 @@ def Postfix_notation(s:str) -> int:
                 bottom = stack.pop()
                 stack.append(int(top)*int(bottom))
 
-
-    return stack[-1]
+    return stack
 
 a = input()
 print(Postfix_notation(a))
