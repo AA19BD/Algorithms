@@ -79,7 +79,7 @@ class LinkedList(object):
                 self.head = cur.next
                 cur = None
                 return
-                # Search for the key to be deleted, keep track of the
+        # Search for the key to be deleted, keep track of the
         # previous node as we need to change 'prev.next'
         while cur:
             if cur.value == value:
