@@ -14,4 +14,4 @@ class Solution:
 
 
 s = Solution()
-print(s.numberOfPairs([0]))
+print(s.numberOfPairs([1,3,2,1,3,2,2]))
