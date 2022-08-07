@@ -15,4 +15,3 @@ class Solution:
                     break
 
         return len(students)
-#
