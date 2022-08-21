@@ -12,10 +12,5 @@ class Solution:
         return arr #[11, 12, 22, 25, 64]
 
 
-
-
-
-
-
 s = Solution()
 print(s.selection_sort([64, 25, 12, 22, 11]))
