@@ -25,7 +25,7 @@ class Solution:
 
         return True
 
-        # recursively
+        # iteratively
         def helper(n1, n2):
             if n1 is None and n2 is None:
                 return True

@@ -8,16 +8,24 @@ class Solution1:
         return check
 
 
-class Solution2:
-    def find_even(self, w: int) -> int:
-       for i in range(2, int(w * 0.5) + 1):
-           if w % 2 != 0:
-               return True
-       return False
-
-s = Solution2()
+s = Solution1()
 w = int(input())
-if w % 2 != 0 or s.find_even(w):
-    print('NO')
-else:
+if s.find_even(w):
     print('YES')
+else:
+    print('NO')
+import math
+
+# class Solution2:
+#     def find_even(self, w: int) -> int:
+#        for i in range(2, math.floor(math.sqrt(w)+1)):
+#            if w % i != 0:
+#                return True
+#        return False
+#
+# s = Solution2()
+# w = int(input())
+# if w % 2 != 0 or s.find_even(w):
+#     print('NO')
+# else:
+#     print('YES')
