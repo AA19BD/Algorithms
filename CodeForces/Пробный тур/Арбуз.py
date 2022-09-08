@@ -14,6 +14,12 @@ if s.find_even(w):
     print('YES')
 else:
     print('NO')
+
+
+
+
+
+    
 import math
 
 # class Solution2:
