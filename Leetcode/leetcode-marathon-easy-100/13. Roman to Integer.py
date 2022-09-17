@@ -16,3 +16,15 @@ class Solution:
             sum_ += cur
             pred = cur
         return sum_
+
+        # ans = 0
+        # i = 0
+        # while i < len(s):
+        #     if i < len(s) - 1 and roman_numerical[s[i]] < roman_numerical[s[i + 1]]:
+        #         ans += roman_numerical[s[i + 1]] - roman_numerical[s[i]]
+        #         i += 2
+        #     else:
+        #         ans += roman_numerical[s[i]]
+        #         i += 1
+        #
+        # return ans
