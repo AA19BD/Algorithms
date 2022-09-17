@@ -1,4 +1,4 @@
-class Solution:
+class Solution: # First Approach
     def licenseKeyFormatting(self, s: str, k: int) -> str:
         s_format = s.upper().replace('-', '')
 
